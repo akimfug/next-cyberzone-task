@@ -34,7 +34,7 @@ const Auth = () => {
         }
         if (Object.keys(newErrors).length > 0) {
             setErrors(newErrors);
-        } else {
+        } if (inputValue1 === 'akim' && inputValue2 === 'cyberzone') {
             setAuthorized(true);
         }
     };
