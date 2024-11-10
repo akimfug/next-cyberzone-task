@@ -1,0 +1,76 @@
+{
+    "goods": [
+        {
+            "categoryTitle": "Чехлы",
+            "cards": [
+                {
+                    "name": "Стекло",
+                    "url": "/images/cards/1.png",
+                    "id": "1"
+                },
+                {
+                    "name": "Силиконовые",
+                    "url": "/images/cards/2.png",
+                    "id": "2"
+                },
+                {
+                    "name": "Кожаные",
+                    "url": "/images/cards/3.png",
+                    "id": "3"
+                }
+            ]
+        },
+        {
+            "categoryTitle": "Наушники",
+            "cards": [
+                {
+                    "name": "Apple Earbuds",
+                    "url": "/images/cards/Image.png",
+                    "price": "1999",
+                    "like": false,
+                    "id": "4"
+                },
+                {
+                    "name": "Apple Earbuds",
+                    "url": "/images/cards/Image-2.png",
+                    "price": "1999",
+                    "like": false,
+                    "id": "5"
+                },
+                {
+                    "name": "Apple Pods",
+                    "url": "/images/cards/Image-1.png",
+                    "price": "2999",
+                    "like": false,
+                    "id": "6"
+                }
+            ]
+        },
+        {
+            "categoryTitle": "Беспроводные наушники",
+            "cards": [
+                {
+                    "name": "Apple Airpods",
+                    "url": "/images/cards/Image-6.png",
+                    "price": "1999",
+                    "like": false,
+                    "id": "7"
+                },
+                {
+                    "name": "Apple Airpods Pro",
+                    "url": "/images/cards/Image-4.png",
+                    "price": "1999",
+                    "like": false,
+                    "id": "8"
+                },
+                {
+                    "name": "Beats",
+                    "url": "/images/cards/Image-5.png",
+                    "price": "2999",
+                    "like": false,
+                    "id": "9"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 410px;
+    background-color: #fff;
+    color: black;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px 0px #0000001A;
+    &__info {
+        display: flex;
+        width: 290px;
+        padding: 20px 0px;
+        justify-content: center;
+        color: #1C1C27;
+        font-weight: 600;
+        &:has(:nth-child(2)) {
+            justify-content: space-between;
+        }
+    }   
+
+    &__price {
+        color: #FFA542;
+    }
+
+    &__img {
+        position: relative;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        width: auto;
+        height: 300px;
+    }
+    &__image {
+        width: auto; 
+        height: auto;
+    }
+
+}

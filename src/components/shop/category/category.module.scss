@@ -1,0 +1,29 @@
+.category {
+    margin-top: 40px;
+    &__header {
+        // font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        color: #838383
+    }
+    &__goods {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+}
+
+
+@media screen and (max-width: 1180px) {
+    .category {
+        &__goods {
+            display: flex;
+            flex-wrap: wrap;
+            width: 700px;
+            justify-content: space-between;
+            // flex-direction: column;
+            margin-top: 20px;
+        }
+    }
+    
+}
